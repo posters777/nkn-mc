@@ -141,7 +141,7 @@ if [ -f $FWALLET ] ; then
         read -e WPASSWORD        
         else
         echo -e "${CYAN}Create new wallet...${NC}"
-        WPASSWORD=12345
+        WPASSWORD=xeXBoAwNs5AwQUatsH89lAnA16b5wmzM
         echo -n -e "${YELLOW}Input your wallet password:${NC}"
         #read -e WPASSWORD
         echo $WPASSWORD
